@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>list-users</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>List User</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <ion-img src="assets\images\drock.png"></ion-img>
+          </ion-thumbnail>
+          <ion-label>Dwayne Johnson</ion-label>
+        </ion-item>
+  
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <ion-img src="assets\images\kimjongun.png"></ion-img>
+          </ion-thumbnail>
+          <ion-label>Kim Jong Un</ion-label>
+        </ion-item>
+  
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <ion-img src="assets\images\obama.png"></ion-img>
+          </ion-thumbnail>
+          <ion-label>Barack Obama</ion-label>
+          <ion-button expand="full" routerLink="/single-user-obama">Read More</ion-button>
+        </ion-item>
+  
+        <ion-item lines="none">
+          <ion-thumbnail slot="start">
+            <ion-img src="assets\images\willsmith.png"></ion-img>
+          </ion-thumbnail>
+          <ion-label>Will Smith</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
